@@ -9,10 +9,15 @@ h1{
     line-height: 1.5;
 }
 
+h3{
+    font-size: 1.5rem;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 600;
+}
+
 #title{
     background-color: #ff4c68;
     color: white;
-
 }
 
 .container-fluid{
@@ -52,4 +57,24 @@ h1{
 .title-image{
     transform: rotate(25deg);
     width: 60%;
+    margin-bottom: -12rem;
+}
+
+/* Features */
+
+.features-container{
+    padding: 4.5rem 0;
+}
+
+.feature-description{
+    color: #8f8f8f;
+}
+
+.feature-icon{
+    color: #ef8172;
+    font-size: 4rem;
+}
+
+.feature-icon:hover{
+    color:red;
 }
