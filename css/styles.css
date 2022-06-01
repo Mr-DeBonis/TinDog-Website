@@ -64,13 +64,18 @@ h3{
 .title-image{
     transform: rotate(25deg);
     width: 60%;
-    margin-bottom: -12rem;
+    right: 30%;
 }
 
 /* Features Section */
 
 #features{
     padding: 7% 15%;
+    position: relative;
+    z-index: 1;
+    bottom: 200px;
+    background-color: white;
+    margin-bottom: -200px;
 }
 
 .feature-box{
